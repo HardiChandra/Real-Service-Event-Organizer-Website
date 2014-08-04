@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>                
+
+
+ <servlet>         
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>UserLogin</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+
+
+ <servlet>         
+    <servlet-name>UserRegister</servlet-name>
+    <servlet-class>UserRegister</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UserRegister</servlet-name>
+    <url-pattern>/UserRegister</url-pattern>
+  </servlet-mapping>
+
+ <servlet>         
+    <servlet-name>booking</servlet-name>
+    <servlet-class>booking</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>booking</servlet-name>
+    <url-pattern>/booking</url-pattern>
+  </servlet-mapping>
+
+ <servlet>         
+    <servlet-name>DeleteBkg</servlet-name>
+    <servlet-class>DeleteBkg</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DeleteBkg</servlet-name>
+    <url-pattern>/DeleteBkg</url-pattern>
+  </servlet-mapping>
+
+  <servlet>         
+    <servlet-name> updateDate</servlet-name>
+    <servlet-class>updateDate</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> updateDate</servlet-name>
+    <url-pattern>/updateDate</url-pattern>
+  </servlet-mapping>
+
+  <servlet>         
+    <servlet-name> insertTeam </servlet-name>
+    <servlet-class>insertTeam </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> insertTeam </servlet-name>
+    <url-pattern>/insertTeam </url-pattern>
+  </servlet-mapping>
+
+ <servlet>         
+    <servlet-name> insertEvent </servlet-name>
+    <servlet-class>insertEvent </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> insertEvent </servlet-name>
+    <url-pattern>/insertEvent </url-pattern>
+  </servlet-mapping>
+
+
+ <servlet>         
+    <servlet-name> insertService </servlet-name>
+    <servlet-class>insertService </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> insertService </servlet-name>
+    <url-pattern>/insertService </url-pattern>
+  </servlet-mapping>
+
+
+<servlet>         
+    <servlet-name> pecat </servlet-name>
+    <servlet-class>pecat </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> pecat </servlet-name>
+    <url-pattern>/pecat </url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+<servlet>         
+    <servlet-name> DeleteEvent </servlet-name>
+    <servlet-class>DeleteEvent </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> DeleteEvent </servlet-name>
+    <url-pattern>/DeleteEvent </url-pattern>
+  </servlet-mapping>
+
+
+
+<servlet>         
+    <servlet-name> insertDiscount </servlet-name>
+    <servlet-class>insertDiscount </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> insertDiscount </servlet-name>
+    <url-pattern>/insertDiscount </url-pattern>
+  </servlet-mapping>
+
+
+  </web-app>
